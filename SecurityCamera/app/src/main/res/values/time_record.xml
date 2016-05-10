@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timeRecordLabel">
+        <item name="1">5 seconds</item>
+        <item name="2">10 seconds</item>
+        <item name="3">15 seconds</item>
+        <item name="4">20 seconds</item>
+        <item name="5">25 seconds</item>
+        <item name="6">30 seconds</item>
+    </string-array>
+
+    <string-array name ="timeRecordValues">
+        <item name="1">5000</item>
+        <item name="2">10000</item>
+        <item name="3">15000</item>
+        <item name="4">20000</item>
+        <item name="5">25000</item>
+        <item name="6">30000</item>
+    </string-array>
+</resources>

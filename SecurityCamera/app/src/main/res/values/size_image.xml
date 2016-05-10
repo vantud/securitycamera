@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sizeImageLabel">
+        <item name="1">300x300 pixels</item>
+        <item name="2">600x600 pixels</item>
+        <item name="3">900x900 pixels</item>
+        <item name="4">1200x1200 pixels</item>
+        <item name="5">1500x1500 pixels</item>
+    </string-array>
+
+    <string-array name ="sizeImageValue">
+        <item name="1">300</item>
+        <item name="2">600</item>
+        <item name="3">900</item>
+        <item name="4">1200</item>
+        <item name="5">1500</item>
+    </string-array>
+</resources>

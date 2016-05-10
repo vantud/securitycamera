@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Settings">
+        <EditTextPreference
+            android:id="@+id/etEmail"
+            android:defaultValue="[Enter your email here]"
+            android:key="prefEmail"
+            android:summary="Enter your email to receive message"
+            android:title="Your Email" />
+
+        <ListPreference
+            android:entries="@array/timeRecordLabel"
+            android:entryValues="@array/timeRecordValues"
+            android:key="prefTimeRecord"
+            android:summary="Set Up Time Record"
+            android:title="Time Record"/>
+
+        <ListPreference
+            android:entries="@array/sizeImageLabel"
+            android:entryValues="@array/sizeImageValue"
+            android:key="prefSizeImage"
+            android:summary="Set Up Size Image"
+            android:title="Size Image"/>
+        <CheckBoxPreference
+            android:title="Auto Enable 3G Connection"
+            android:defaultValue="false"
+            android:key="pref3GConnect" />
+    </PreferenceCategory>
+</PreferenceScreen>
